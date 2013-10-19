@@ -171,12 +171,12 @@ html[xmlns] .slides { display: block; }
 	text-indent: -9999px;
 	z-index: 9999;
 
-	background-color: #82d344;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#82d344), to(#51af34));
-	background-image: -webkit-linear-gradient(top, #82d344, #51af34);
-	background-image: -moz-linear-gradient(top, #82d344, #51af34);
-	background-image: -o-linear-gradient(top, #82d344, #51af34);
-	background-image: linear-gradient(to bottom, #82d344, #51af34);
+	background-color: #44c2d3;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#44c2d3), to(#446cd3));
+	background-image: -webkit-linear-gradient(top, #44c2d3, #446cd3);
+	background-image: -moz-linear-gradient(top, #44c2d3, #446cd3);
+	background-image: -o-linear-gradient(top, #44c2d3, #446cd3);
+	background-image: linear-gradient(to bottom, #44c2d3, #446cd3);
 }
 
 .flex-direction-nav a:before {
@@ -265,12 +265,12 @@ html[xmlns] .slides { display: block; }
 }
 
 .flex-control-paging li a.flex-active {
-	background-color: #82d344;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#82d344), to(#51af34));
-	background-image: -webkit-linear-gradient(top, #82d344, #51af34);
-	background-image: -moz-linear-gradient(top, #82d344, #51af34);
-	background-image: -o-linear-gradient(top, #82d344, #51af34);
-	background-image: linear-gradient(to bottom, #82d344, #51af34);
+	background-color: #44c2d3;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#44c2d3), to(#446cd3));
+	background-image: -webkit-linear-gradient(top, #44c2d3, #446cd3);
+	background-image: -moz-linear-gradient(top, #44c2d3, #446cd3);
+	background-image: -o-linear-gradient(top, #44c2d3, #446cd3);
+	background-image: linear-gradient(to bottom, #44c2d3, #446cd3);
 
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
