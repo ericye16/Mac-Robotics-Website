@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  overflow:scroll;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -34,7 +35,9 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    width:700px;
+	position: absolute;
+	left: 500px;
   }
 }
 .container-narrow > hr {
@@ -78,9 +81,10 @@ body {
   }
   .twitter {
     float:left;
-    position:absolute;
+	position: absolute;
     top:115px;
-    width:23%;
+	left:50px;
+	width: 300px;
   }
   
 .flex-container a:active,
@@ -152,11 +156,10 @@ html[xmlns] .slides { display: block; }
 
 /* Edit it if you want */
 .flex-container {
-	min-width: 400px;
-	max-width: 400px;
+	width: 400px;
 }
 
-.flexslider .slides { zoom: 1; }
+.flexslider .slides { zoom: 1;}
 
 
 
