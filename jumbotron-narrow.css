@@ -36,8 +36,9 @@ body {
 @media (min-width: 768px) {
   .container {
     width:800;
-	position: absolute;
-	left: 350px;
+	/*position: absolute;*/
+	/*left:200;*/
+	margin-left:200px;
   }
 }
 .container-narrow > hr {
@@ -83,7 +84,7 @@ body {
     /*float:right;*/
 	position: absolute;
     top:115px;
-	left:1200px;
+	margin-left:1060px;
 	width: 300px;
   }
   
