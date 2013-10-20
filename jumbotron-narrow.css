@@ -77,9 +77,10 @@ body {
     border-bottom: 0;
   }
   .twitter {
+    float:left;
     position:absolute;
-    top:110px;
-    left:50px;
+    top:115px;
+    width:23%;
   }
   
 .flex-container a:active,
