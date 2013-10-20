@@ -35,9 +35,9 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    width:700px;
+    width:800;
 	position: absolute;
-	left: 500px;
+	left: 350px;
   }
 }
 .container-narrow > hr {
@@ -80,10 +80,10 @@ body {
     border-bottom: 0;
   }
   .twitter {
-    float:left;
+    /*float:right;*/
 	position: absolute;
     top:115px;
-	left:50px;
+	left:1200px;
 	width: 300px;
   }
   
