@@ -35,9 +35,9 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    width:500px;
+    width:100%;
 	position: absolute;
-	left: 500px;
+	left: 100px;
   }
 }
 .container-narrow > hr {
@@ -46,6 +46,9 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  min-width:500px;
+  max-width:1000px;
+  width: 65%;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -56,6 +59,9 @@ body {
 
 /* Supporting marketing content */
 .marketing {
+  min-width:500px;
+  max-width:1000px;
+  width:65%;
   margin: 40px 0;
 }
 .marketing p + h4 {
@@ -80,10 +86,9 @@ body {
     border-bottom: 0;
   }
   .twitter {
-    float:left;
 	position: absolute;
-    top:115px;
-	left:50px;
+    top:75px;
+	left:70%;
 	width: 300px;
   }
   
