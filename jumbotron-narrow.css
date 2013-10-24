@@ -2,7 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  overflow:scroll;
+  overflow: scroll;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -86,7 +86,7 @@ body {
     border-bottom: 0;
   }
   .twitter {
-	position: absolute;
+    position: absolute;
     top:75px;
 	left:70%;
 	width: 300px;
