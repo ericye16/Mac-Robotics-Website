@@ -8,7 +8,7 @@
 	switch($query) {
 		case 1:
 			$body = fopen("main.html", "r");
-			for ($i = 0; $i < 31; $i++) {
+			for ($i = 0; $i < 40; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?1" name="home">Home</a></li>';
@@ -19,7 +19,7 @@
 			break;
 		case 2:
 			$body = fopen("events.html", "r");
-			for ($i = 0; $i < 32; $i++) {
+			for ($i = 0; $i < 41; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?2" name="events">Events</a></li>';
@@ -30,7 +30,7 @@
 			break;
 		case 3:
 			$body = fopen("media.html", "r");
-			for ($i = 0; $i < 33; $i++) {
+			for ($i = 0; $i < 42; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?3" name="media">Media</a></li>';
@@ -41,7 +41,7 @@
 			break;
 		case 4:
 			$body = fopen("sponsors.html", "r");
-			for ($i = 0; $i < 34; $i++) {
+			for ($i = 0; $i < 43; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?4" name="sponsor">Sponsorship</a></li>';
@@ -52,7 +52,7 @@
 			break;
 		case 5:
 			$body = fopen("about.html", "r");
-			for ($i = 0; $i < 35; $i++) {
+			for ($i = 0; $i < 44; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?5" name="about">About</a></li>';
@@ -63,7 +63,7 @@
 			break;
 		case 6:
 			$body = fopen("contact.html", "r");
-			for ($i = 0; $i < 36; $i++) {
+			for ($i = 0; $i < 45; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?6" name="contact">Contact</a></li>';
@@ -74,7 +74,7 @@
 			break;
 		default:
 			$body = fopen("main.html", "r");
-			for ($i = 0; $i < 31; $i++) {
+			for ($i = 0; $i < 40; $i++) {
 				$headdata .= fgets($head);
 			}
 			$headdata .= '<li class=active><a href="index.php?1" name="home">Home</a></li>';
