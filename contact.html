@@ -1,3 +1,11 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="jumbotron">
         <h1>Contact</h1>
         <p class="lead"></p>
@@ -25,10 +33,15 @@
 
         <div class="col-lg-6">
           <h4>Twitter Page</h4>
-          <p>Follow us:<br><a href="https://twitter.com/macrobotics2014"><img src="img/twitter.jpg"height=25 width=25></a></p>
+          <p><a href="https://twitter.com/macrobotics2014" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @macrobotics2014</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
           <h4>Facebook Page</h4>
-          <p>Check out our facebook page!<br><a href="https://www.facebook.com/macrobotics2014"><img src="img/facebook.jpg"height=25 width=25></a></p>
+          <p>
+		  <div class="fb-like" data-href="https://www.facebook.com/macrobotics2014" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+		  <div class="fb-share-button" data-href="https://www.facebook.com/macrobotics2014" data-type="button_count"></div>
+		  <div class="fb-follow" data-href="https://www.facebook.com/macrobotics2014" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>
+		  </p>
 
           
         </div>
